@@ -28,7 +28,7 @@ public class ExplicitWait {
 	        WebElement pw = driver.findElement(By.name("password"));
 	        WebElement log = driver.findElement(By.id("login-button"));
 	        us.sendKeys("standard_user");
-	        pw.sendKeys("secret_sauce");
+	        pw.sendKeys("secret_");
 	        log.click();
 	        WebElement dd = driver.findElement(By.xpath("//select[contains(@data-test,'product-sort-container')]"));
 	        ww.until(ExpectedConditions.visibilityOf(dd));
